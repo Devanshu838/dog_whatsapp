@@ -150,7 +150,6 @@ async function groupPage(){
     console.log("group data is",fetch);
     const catchData=[];
     fetch.data.map((pass)=>{
-        // console.log("pass is ", pass);
         catchData.push(group_data(pass));
     })
     for (let i=0; i<catchData.length; i++) {
